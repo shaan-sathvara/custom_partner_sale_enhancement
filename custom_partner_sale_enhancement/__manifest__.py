@@ -15,9 +15,9 @@ Custom Module for:
 - New OWL widget to copy Char field to clipboard
 - Default filter to show confirmed and done Sales Orders
 
-Developed by: Your Name Here
+Developed by: Shaan
 """,
-    "author": "Your Name Here",
+    "author": "Shaan",
     "depends": [
         "sale_management",
         "stock",
