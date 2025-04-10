@@ -1,0 +1,12 @@
+<odoo>
+    <templates id="template" xml:space="preserve">
+        <t t-name="custom_partner_sale_enhancement.ClipboardCharField" owl="1">
+            <div class="o_input_with_button">
+                <input type="text" t-att-value="props.value" class="o_input" readonly="readonly" t-ref="input"/>
+                <button type="button" class="btn btn-secondary btn-sm" t-on-click="copyToClipboard" title="Copy">
+                    <i class="fa fa-copy"/>
+                </button>
+            </div>
+        </t>
+    </templates>
+</odoo>

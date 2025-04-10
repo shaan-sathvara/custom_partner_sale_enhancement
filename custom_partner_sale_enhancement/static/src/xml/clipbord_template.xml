@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="custom_partner_sale_enhancement.CopyClipboardField" owl="1">
+        <div class="o_copy_clipboard_widget d-flex align-items-center">
+            <span><t t-esc="props.value or ''"/></span>
+            <button type="button"
+                    class="btn btn-sm btn-light ms-2"
+                    t-on-click="onCopyClick"
+                    title="Copy to clipboard">
+                📋
+            </button>
+        </div>
+    </t>
+</templates>
